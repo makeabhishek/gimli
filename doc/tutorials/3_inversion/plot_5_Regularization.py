@@ -20,10 +20,10 @@ $\lambda$:
 The regularization strength $\lambda$ should be chosen so that the
 data are fitted within noise, i.e. $\chi^2=\Phi_d/N=1$.
 
-In the term $\Phi-m$ we put our expectations to the model, e.g. to
-be close to any prior model. In many cases we do not have much
-information and aim for the smoothest model that is able to fit our
-data. We decribe it by the operator $W_m$:
+In the term $\Phi_m$ we put our expectations to the model, e.g. to
+be close to any prior model. In many cases, we have little
+information and aim for the smoothest model that can fit our
+data. We describe it by the operator $W_m$:
 
 .. math:: \Phi_m=\|W_m (m-m_{ref})\|^2
 
